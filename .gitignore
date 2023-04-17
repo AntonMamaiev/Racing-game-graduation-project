@@ -395,3 +395,4 @@ FodyWeavers.xsd
 *.sln.iml
 .vs/ProjectSettings.json
 .vs/slnx.sqlite
+*.dylib
