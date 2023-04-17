@@ -34,6 +34,11 @@ public class CarPhysics : MonoBehaviour
     public float carTopSpeed;
     public bool IsBrakingWheel;
 
+    [Header("Tire Visualization")]
+    public float tireSize;
+    public float maxRestPos;
+    public float minRestPos;
+
     // All variables
     private float accelInput;
     private float WheelRight, WheelLeft;
@@ -210,15 +215,15 @@ public class CarPhysics : MonoBehaviour
             //////////////////////////////////// Візуалізація //////////////////////////////////////////
             ////////////////////////////////////////////////////////////////////////////////////////////
 
-            pushValue = -(rayHit.distance - 0.435f);
+            pushValue = -(rayHit.distance - tireSize);
             basePos = Tire.transform.position;
             wheelsSuspensionPos = new Vector3(basePos.x, transform.position.y + pushValue, basePos.z);
 
             Tire.transform.position = Vector3.MoveTowards(basePos, wheelsSuspensionPos, 0.02f);
             Tire.transform.localPosition = new Vector3(tireBasePos.x, Tire.transform.localPosition.y, tireBasePos.z);
 
-            if (Tire.transform.localPosition.y < 0.35f) Tire.transform.localPosition = new Vector3(tireBasePos.x, 0.35f, tireBasePos.z);
-            if (Tire.transform.localPosition.y > 0.5f) Tire.transform.localPosition = new Vector3(tireBasePos.x, 0.5f, tireBasePos.z);
+            if (Tire.transform.localPosition.y < minRestPos) Tire.transform.localPosition = new Vector3(tireBasePos.x, minRestPos, tireBasePos.z);
+            if (Tire.transform.localPosition.y > maxRestPos) Tire.transform.localPosition = new Vector3(tireBasePos.x, maxRestPos, tireBasePos.z);
 
             cloneWheel.transform.position = Tire.transform.position;
 
@@ -240,45 +245,7 @@ public class CarPhysics : MonoBehaviour
         tr = carTransfort.transform.position;
 
 
-        ////////////////////////////////////////////////////////////////////////////////////////////
-        //////////////////////////////////// Поворот у повітрі /////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////////////////
-
-        if (!Physics.Raycast(tr, -carTransfort.transform.up, 1.5f))
-        {
-            steerInput = Input.GetAxis("Horizontal");
-            if (steerInput > 0) // Поворот у право
-            {
-                if (FR)
-                    carRigidBody.AddForceAtPosition( transform.right * Mathf.Abs(steerInput * airspeed), this.transform.position);
-                if (RL)
-                    carRigidBody.AddForceAtPosition(-transform.right * Mathf.Abs(steerInput * airspeed), this.transform.position);
-            }
-            else if (steerInput < 0) // Поворот у ліво
-            {
-
-                if (FL)
-                    carRigidBody.AddForceAtPosition(-transform.right * Mathf.Abs(steerInput * airspeed), this.transform.position);
-                if (RR)
-                    carRigidBody.AddForceAtPosition(transform.right * Mathf.Abs(steerInput * airspeed), this.transform.position);
-            }
-            /*  !!! НЕ ПРАЦЮЄ !!!
-            airInput = Input.GetAxis("AirUpDown");
-            if (airInput > 0) // Газ
-            {
-                if (FR)
-                    carRigidBody.AddForceAtPosition(transform.up * Mathf.Abs(airInput * airspeed), this.transform.position);
-                if (FL)
-                    carRigidBody.AddForceAtPosition(transform.up * Mathf.Abs(airInput * airspeed), this.transform.position);
-            }
-            else if (airInput < 0) // Тормоз
-            {
-                if (FR)
-                    carRigidBody.AddForceAtPosition(transform.up * Mathf.Abs(airInput * airspeed), this.transform.position);
-                if (FL)
-                    carRigidBody.AddForceAtPosition(transform.up * Mathf.Abs(airInput * airspeed), this.transform.position); 
-            }*/
-        }
+        
 
     }
 }
