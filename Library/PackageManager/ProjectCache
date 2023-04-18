@@ -5,29 +5,96 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638159844749239293
-    m_Hash: 2740177443
+      ticks: 638174377226367096
+    m_Hash: 1002491645
   m_LockFileStatus:
     m_FilePath: D:/GitHub/Unity-Racing-Game/Racing game/Racing-game-graduation-project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638159844749914954
-    m_Hash: 2397603658
+      ticks: 638174377247396654
+    m_Hash: 1908698688
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/GitHub/Unity-Racing-Game/Racing game/Racing-game-graduation-project/Packages
-m_EditorVersion: 2021.3.19f1 (c9714fde33b6)
+m_EditorVersion: 2022.2.15f1 (30d813e1a2a9)
 m_ResolvedPackages:
-- packageId: com.unity.cinemachine@2.8.9
+- packageId: com.unity.ai.navigation@1.1.1
   testable: 0
   isDirectDependency: 1
-  version: 2.8.9
+  version: 1.1.1
   source: 1
-  resolvedPath: D:\GitHub\Unity-Racing-Game\Racing game\Racing-game-graduation-project\Library\PackageCache\com.unity.cinemachine@2.8.9
+  resolvedPath: D:\GitHub\Unity-Racing-Game\Racing game\Racing-game-graduation-project\Library\PackageCache\com.unity.ai.navigation@1.1.1
+  assetPath: Packages/com.unity.ai.navigation
+  name: com.unity.ai.navigation
+  displayName: AI Navigation
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: High-level NavMesh components for building and using NavMeshes at
+    runtime and at edit time.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-exp.1
+    - 1.0.0-exp.2
+    - 1.0.0-exp.3
+    - 1.0.0-exp.4
+    - 1.1.0-pre.1
+    - 1.1.0-pre.2
+    - 1.1.1
+    - 1.1.3
+    compatible:
+    - 1.1.1
+    - 1.1.3
+    recommended: 1.1.3
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638023206030000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
+    revision: 68f64fce84ec1c6721cae1231d5cf4003494eb08
+    path: 
+  unityLifecycle:
+    version: 1.1.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.cinemachine@2.9.5
+  testable: 0
+  isDirectDependency: 1
+  version: 2.9.5
+  source: 1
+  resolvedPath: D:\GitHub\Unity-Racing-Game\Racing game\Racing-game-graduation-project\Library\PackageCache\com.unity.cinemachine@2.9.5
   assetPath: Packages/com.unity.cinemachine
   name: com.unity.cinemachine
   displayName: Cinemachine
@@ -113,20 +180,17 @@ m_ResolvedPackages:
     - 3.0.0-pre.3
     - 3.0.0-pre.4
     compatible:
-    - 2.8.9
-    - 2.9.0-pre.1
-    - 2.9.0-pre.6
-    - 2.9.1
-    - 2.9.2
-    - 2.9.4
     - 2.9.5
-    verified: 2.8.9
+    - 3.0.0-pre.3
+    - 3.0.0-pre.4
+    recommended: 2.9.5
+    deprecated: []
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.31
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.1.31
+    version: 1.1.33
   - name: com.unity.ext.nunit
     version: 1.0.6
   - name: com.unity.modules.imgui
@@ -166,23 +230,28 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637975495930000000
-  documentationUrl: 
+  datePublishedTicks: 638102365180000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.cinemachine.git
-    revision: 92bcde243d623d77c64960a552f29396770af1e1
+    revision: 4b4405b9505ecfa1cb2d2b03df8f3309c12f3b0d
     path: 
   unityLifecycle:
-    version: 2.8.9
+    version: 2.9.5
     nextVersion: 
-- packageId: com.unity.collab-proxy@2.0.0
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.collab-proxy@2.0.3
   testable: 0
   isDirectDependency: 1
-  version: 2.0.0
+  version: 2.0.3
   source: 1
-  resolvedPath: D:\GitHub\Unity-Racing-Game\Racing game\Racing-game-graduation-project\Library\PackageCache\com.unity.collab-proxy@2.0.0
+  resolvedPath: D:\GitHub\Unity-Racing-Game\Racing game\Racing-game-graduation-project\Library\PackageCache\com.unity.collab-proxy@2.0.3
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -192,10 +261,9 @@ m_ResolvedPackages:
     url: 
   category: Editor
   type: asset
-  description: The Version Control package gives you the ability to use either Collaborate
-    or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic SCM for Unity
-    (beta), a Plastic SCM subscription is required. Learn more about how you can
-    get started for free by visiting plasticscm.com.
+  description: The package gives you the ability to use Unity Version Control in
+    the Unity editor. To use Unity Version Control, a subscription is required. Learn
+    more about how you can get started for free by visiting plasticscm.com.
   status: 0
   errors: []
   versions:
@@ -266,13 +334,12 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 2.0.0
-    - 2.0.1
     - 2.0.3
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 2.0.3
+    recommended: 2.0.3
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -282,6 +349,7 @@ m_ResolvedPackages:
   - collaborate
   - collaboration
   - control
+  - devops
   - plastic
   - plasticscm
   - source
@@ -299,17 +367,22 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638095491550000000
+  datePublishedTicks: 638158826940000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: a1b1151e0c90bc327ea95678473c1f3a935b2c9e
+    revision: c189c3bb7a025aa19e1f0ab8851a09a34ff94016
     path: 
   unityLifecycle:
-    version: 2.0.0
+    version: 2.0.3
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.feature.development@1.0.1
   testable: 0
   isDirectDependency: 1
@@ -336,7 +409,8 @@ m_ResolvedPackages:
     - 1.0.1
     compatible:
     - 1.0.1
-    verified: 1.0.1
+    recommended: 1.0.1
+    deprecated: []
   dependencies:
   - name: com.unity.ide.visualstudio
     version: default
@@ -356,7 +430,7 @@ m_ResolvedPackages:
   - name: com.unity.ide.visualstudio
     version: 2.0.17
   - name: com.unity.test-framework
-    version: 1.1.31
+    version: 1.1.33
   - name: com.unity.ext.nunit
     version: 1.0.6
   - name: com.unity.modules.imgui
@@ -374,7 +448,7 @@ m_ResolvedPackages:
   - name: com.unity.testtools.codecoverage
     version: 1.2.2
   - name: com.unity.settings-manager
-    version: 1.0.3
+    version: 2.0.1
   keywords: []
   registry:
     id: main
@@ -397,6 +471,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.1
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.ide.rider@3.0.18
   testable: 0
   isDirectDependency: 1
@@ -453,9 +532,12 @@ m_ResolvedPackages:
     - 3.0.16
     - 3.0.17
     - 3.0.18
+    - 3.0.20
     compatible:
     - 3.0.18
-    verified: 3.0.18
+    - 3.0.20
+    recommended: 3.0.20
+    deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -484,6 +566,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 3.0.18
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.ide.visualstudio@2.0.17
   testable: 0
   isDirectDependency: 1
@@ -526,15 +613,18 @@ m_ResolvedPackages:
     - 2.0.15
     - 2.0.16
     - 2.0.17
+    - 2.0.18
     compatible:
     - 2.0.17
-    verified: 2.0.17
+    - 2.0.18
+    recommended: 2.0.18
+    deprecated: []
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.1.31
+    version: 1.1.33
   - name: com.unity.ext.nunit
     version: 1.0.6
   - name: com.unity.modules.imgui
@@ -563,6 +653,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 2.0.17
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.ide.vscode@1.2.5
   testable: 0
   isDirectDependency: 1
@@ -600,7 +695,8 @@ m_ResolvedPackages:
     - 1.2.5
     compatible:
     - 1.2.5
-    verified: 1.2.5
+    recommended: 1.2.5
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -625,83 +721,34 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.5
     nextVersion: 
-- packageId: com.unity.render-pipelines.high-definition@12.1.10
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.render-pipelines.universal@14.0.7
   testable: 0
   isDirectDependency: 1
-  version: 12.1.10
+  version: 14.0.7
   source: 2
-  resolvedPath: D:\GitHub\Unity-Racing-Game\Racing game\Racing-game-graduation-project\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.10
-  assetPath: Packages/com.unity.render-pipelines.high-definition
-  name: com.unity.render-pipelines.high-definition
-  displayName: High Definition RP
+  resolvedPath: D:\GitHub\Unity-Racing-Game\Racing game\Racing-game-graduation-project\Library\PackageCache\com.unity.render-pipelines.universal@14.0.7
+  assetPath: Packages/com.unity.render-pipelines.universal
+  name: com.unity.render-pipelines.universal
+  displayName: Universal RP
   author:
     name: 
     email: 
     url: 
   category: 
   type: 
-  description: The High Definition Render Pipeline (HDRP) is a high-fidelity Scriptable
-    Render Pipeline built by Unity to target modern (Compute Shader compatible) platforms.
-    HDRP utilizes Physically-Based Lighting techniques, linear lighting, HDR lighting,
-    and a configurable hybrid Tile/Cluster deferred/Forward lighting architecture
-    and gives you the tools you need to create games, technical demos, animations,
-    and more to a high graphical standard.
+  description: The Universal Render Pipeline (URP) is a prebuilt Scriptable Render
+    Pipeline, made by Unity. URP provides artist-friendly workflows that let you
+    quickly and easily create optimized graphics across a range of platforms, from
+    mobile to high-end consoles and PCs.
   status: 0
   errors: []
   versions:
     all:
-    - 0.1.21
-    - 0.1.27
-    - 0.1.28
-    - 1.0.0-beta
-    - 1.0.1-beta
-    - 1.1.1-preview
-    - 1.1.2-preview
-    - 1.1.4-preview
-    - 1.1.5-preview
-    - 1.1.8-preview
-    - 1.1.10-preview
-    - 1.1.11-preview
-    - 2.0.1-preview
-    - 2.0.3-preview
-    - 2.0.4-preview
-    - 2.0.4-preview.1
-    - 2.0.5-preview
-    - 2.0.6-preview
-    - 2.0.7-preview
-    - 2.0.8-preview
-    - 3.0.0-preview
-    - 3.1.0-preview
-    - 3.3.0-preview
-    - 4.0.0-preview
-    - 4.0.1-preview
-    - 4.1.0-preview
-    - 4.2.0-preview
-    - 4.3.0-preview
-    - 4.6.0-preview
-    - 4.8.0-preview
-    - 4.9.0-preview
-    - 4.10.0-preview
-    - 5.0.0-preview
-    - 5.1.0-preview
-    - 5.2.0-preview
-    - 5.2.1-preview
-    - 5.2.2-preview
-    - 5.2.3-preview
-    - 5.3.1-preview
-    - 5.6.1-preview
-    - 5.7.2-preview
-    - 5.8.2-preview
-    - 5.9.0-preview
-    - 5.10.0-preview
-    - 5.13.0-preview
-    - 5.16.1-preview
-    - 6.5.2-preview
-    - 6.5.3-preview
-    - 6.7.1-preview
-    - 6.9.0-preview
-    - 6.9.1-preview
-    - 6.9.2-preview
     - 7.0.0
     - 7.0.1
     - 7.1.1
@@ -726,11 +773,11 @@ m_ResolvedPackages:
     - 8.1.0
     - 8.2.0
     - 8.3.1
-    - 9.0.0-preview.13
-    - 9.0.0-preview.33
-    - 9.0.0-preview.54
-    - 9.0.0-preview.71
-    - 10.0.0-preview.27
+    - 9.0.0-preview.14
+    - 9.0.0-preview.35
+    - 9.0.0-preview.55
+    - 9.0.0-preview.72
+    - 10.0.0-preview.26
     - 10.1.0
     - 10.2.0
     - 10.2.1
@@ -747,72 +794,48 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 12.1.10
+    - 14.0.7
     compatible:
-    - 12.1.10
-    verified: 12.1.10
+    - 14.0.7
+    recommended: 14.0.7
+    deprecated: []
   dependencies:
   - name: com.unity.mathematics
-    version: 1.2.4
+    version: 1.2.1
   - name: com.unity.burst
     version: 1.8.2
-  - name: com.unity.modules.video
-    version: 1.0.0
-  - name: com.unity.modules.animation
-    version: 1.0.0
-  - name: com.unity.modules.imageconversion
-    version: 1.0.0
-  - name: com.unity.modules.terrain
-    version: 1.0.0
   - name: com.unity.render-pipelines.core
-    version: 12.1.10
+    version: 14.0.7
   - name: com.unity.shadergraph
-    version: 12.1.10
-  - name: com.unity.visualeffectgraph
-    version: 12.1.10
-  - name: com.unity.render-pipelines.high-definition-config
-    version: 12.1.10
+    version: 14.0.7
   resolvedDependencies:
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.burst
-    version: 1.8.2
-  - name: com.unity.modules.video
-    version: 1.0.0
-  - name: com.unity.modules.audio
+    version: 1.8.4
+  - name: com.unity.render-pipelines.core
+    version: 14.0.7
+  - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.modules.animation
-    version: 1.0.0
-  - name: com.unity.modules.imageconversion
-    version: 1.0.0
-  - name: com.unity.modules.terrain
-    version: 1.0.0
-  - name: com.unity.render-pipelines.core
-    version: 12.1.10
-  - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.physics
     version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.shadergraph
-    version: 12.1.10
+    version: 14.0.7
   - name: com.unity.searcher
-    version: 4.9.1
-  - name: com.unity.visualeffectgraph
-    version: 12.1.10
-  - name: com.unity.render-pipelines.high-definition-config
-    version: 12.1.10
+    version: 4.9.2
   keywords:
   - graphics
   - performance
   - rendering
+  - mobile
   - render
   - pipeline
   registry:
@@ -834,14 +857,19 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.10
+    version: 14.0.7
     nextVersion: 
-- packageId: com.unity.test-framework@1.1.31
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.test-framework@1.1.33
   testable: 0
   isDirectDependency: 1
-  version: 1.1.31
+  version: 1.1.33
   source: 1
-  resolvedPath: D:\GitHub\Unity-Racing-Game\Racing game\Racing-game-graduation-project\Library\PackageCache\com.unity.test-framework@1.1.31
+  resolvedPath: D:\GitHub\Unity-Racing-Game\Racing game\Racing-game-graduation-project\Library\PackageCache\com.unity.test-framework@1.1.33
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -900,7 +928,6 @@ m_ResolvedPackages:
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     compatible:
-    - 1.1.31
     - 1.1.33
     - 1.3.0
     - 1.3.1
@@ -911,7 +938,8 @@ m_ResolvedPackages:
     - 2.0.1-exp.2
     - 2.0.1-pre.12
     - 2.0.1-pre.18
-    verified: 1.1.33
+    recommended: 1.1.33
+    deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -939,17 +967,22 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637804266210000000
+  datePublishedTicks: 637938212700000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.test-framework.git
-    revision: 438b0defc147c9be5c969ca79ff03a722b4590ed
+    revision: 34a4d423d64926635eb36d3bb86276179cc186e1
     path: 
   unityLifecycle:
-    version: 1.1.31
+    version: 1.1.33
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.textmeshpro@3.0.6
   testable: 0
   isDirectDependency: 1
@@ -1081,7 +1114,10 @@ m_ResolvedPackages:
     - 3.2.0-pre.2
     - 3.2.0-pre.3
     - 3.2.0-pre.4
-    verified: 3.0.6
+    - 4.0.0-pre.1
+    - 4.0.0-pre.2
+    recommended: 3.0.6
+    deprecated: []
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -1119,12 +1155,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 3.0.6
     nextVersion: 
-- packageId: com.unity.timeline@1.6.4
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.timeline@1.7.4
   testable: 0
   isDirectDependency: 1
-  version: 1.6.4
+  version: 1.7.4
   source: 1
-  resolvedPath: D:\GitHub\Unity-Racing-Game\Racing game\Racing-game-graduation-project\Library\PackageCache\com.unity.timeline@1.6.4
+  resolvedPath: D:\GitHub\Unity-Racing-Game\Racing game\Racing-game-graduation-project\Library\PackageCache\com.unity.timeline@1.7.4
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1219,18 +1260,12 @@ m_ResolvedPackages:
     - 1.8.1
     - 1.8.2
     compatible:
-    - 1.6.4
-    - 1.7.0-pre.1
-    - 1.7.0-pre.2
-    - 1.7.0
-    - 1.7.1
-    - 1.7.2
-    - 1.7.3
     - 1.7.4
     - 1.8.0
     - 1.8.1
     - 1.8.2
-    verified: 1.6.4
+    recommended: 1.7.4
+    deprecated: []
   dependencies:
   - name: com.unity.modules.director
     version: 1.0.0
@@ -1265,17 +1300,159 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637789039180000000
-  documentationUrl: 
+  datePublishedTicks: 638143790870000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.7/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: d7e1eb6805737974459309b7d6e7db58635dd167
+    revision: 1f458a5d3f2bc66f0c1182feeaa9fcea4e8b1496
     path: 
   unityLifecycle:
-    version: 1.6.4
+    version: 1.7.4
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.toonshader@0.9.2-preview
+  testable: 0
+  isDirectDependency: 1
+  version: 0.9.2-preview
+  source: 1
+  resolvedPath: D:\GitHub\Unity-Racing-Game\Racing game\Racing-game-graduation-project\Library\PackageCache\com.unity.toonshader@0.9.2-preview
+  assetPath: Packages/com.unity.toonshader
+  name: com.unity.toonshader
+  displayName: Unity Toon Shader
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: 'Unity Toon Shader (Unity-Chan Toon Shader 3) is a toon shader for
+    images and video that is designed to meet the needs of creators working on cel-shaded
+    3DCG animations.
+
+    Unlike other pre-render toon shaders, all features can
+    be adjusted in real time on Unity, which is the greatest feature of UTS.
+
+
+    UTS
+    has great power and makes a wide variety of character designs possible, from
+    cel-shaded to light novel illustration styles.
+
+
+    UTS has the 3 basic layers
+    of Base Color, 1st Shade Color, and 2nd Shade Color, colors and textures can
+    also accept a wide variety of customization options, such as High Color, Rim
+    Light, MatCap (sphere mapping), and Emissive (light emission).The level of gradation
+    (feather) between colors can also be adjusted in Unity in real-time.
+
+
+    More
+    precisely, View documentation above.'
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.6.1-preview
+    - 0.7.0-preview
+    - 0.7.2-preview
+    - 0.7.3-preview
+    - 0.7.4-preview
+    - 0.7.5-preview
+    - 0.7.6-preview
+    - 0.8.0-preview
+    - 0.8.1-preview
+    - 0.8.2-preview
+    - 0.8.3-preview
+    - 0.8.4-preview
+    - 0.8.5-preview
+    - 0.9.0-preview
+    - 0.9.1-preview
+    - 0.9.2-preview
+    compatible:
+    - 0.6.1-preview
+    - 0.7.0-preview
+    - 0.7.2-preview
+    - 0.7.3-preview
+    - 0.7.4-preview
+    - 0.7.5-preview
+    - 0.7.6-preview
+    - 0.8.0-preview
+    - 0.8.1-preview
+    - 0.8.2-preview
+    - 0.8.3-preview
+    - 0.8.4-preview
+    - 0.8.5-preview
+    - 0.9.0-preview
+    - 0.9.1-preview
+    - 0.9.2-preview
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.film-internal-utilities
+    version: 0.18.4-preview
+  - name: com.unity.render-pipelines.core
+    version: 10.0.0
+  resolvedDependencies:
+  - name: com.unity.film-internal-utilities
+    version: 0.18.4-preview
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.timeline
+    version: 1.7.4
+  - name: com.unity.modules.director
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.unity.render-pipelines.core
+    version: 14.0.7
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638173826820000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.toonshader@0.9/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.toonshader.git
+    revision: 7d8737ef1ee60b657c6ee7624af793b5a25a39a7
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.ugui@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1302,7 +1479,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
@@ -1339,6 +1517,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.visualscripting@1.8.0
   testable: 0
   isDirectDependency: 1
@@ -1389,7 +1572,9 @@ m_ResolvedPackages:
     - 1.8.0
     compatible:
     - 1.8.0
-    verified: 1.8.0
+    recommended: 1.8.0
+    deprecated:
+    - 1.8.0-pre.1
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -1426,6 +1611,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.8.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1450,7 +1640,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1475,6 +1666,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.androidjni@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1498,7 +1694,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1523,6 +1720,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.animation@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1547,7 +1749,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1572,6 +1775,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.assetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1596,7 +1804,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1621,6 +1830,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.audio@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1645,7 +1859,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1670,6 +1885,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.cloth@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1694,7 +1914,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -1723,6 +1944,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.director@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1747,7 +1973,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.audio
     version: 1.0.0
@@ -1780,6 +2007,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.imageconversion@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1805,7 +2037,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1830,6 +2063,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.imgui@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1854,7 +2092,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1879,6 +2118,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.jsonserialize@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1903,7 +2147,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1928,6 +2173,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.particlesystem@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1952,7 +2202,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1977,6 +2228,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.physics@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2001,7 +2257,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2026,6 +2283,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.physics2d@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2050,7 +2312,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2075,6 +2338,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.screencapture@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2099,7 +2367,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.imageconversion
     version: 1.0.0
@@ -2128,6 +2397,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.terrain@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2152,7 +2426,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2177,6 +2452,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.terrainphysics@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2201,7 +2481,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -2234,6 +2515,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.tilemap@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2257,7 +2543,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.physics2d
     version: 1.0.0
@@ -2286,6 +2573,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.ui@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2310,7 +2602,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2335,6 +2628,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.uielements@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2359,7 +2657,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
@@ -2367,16 +2666,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
-  - name: com.unity.modules.uielementsnative
-    version: 1.0.0
   resolvedDependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.uielementsnative
     version: 1.0.0
   keywords: []
   registry:
@@ -2400,6 +2695,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.umbra@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2424,7 +2724,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2449,6 +2750,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.unityanalytics@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2473,7 +2779,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -2506,6 +2813,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequest@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2530,7 +2842,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2555,6 +2868,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequestassetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2579,7 +2897,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.assetbundle
     version: 1.0.0
@@ -2612,6 +2931,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequestaudio@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2636,7 +2960,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -2669,6 +2994,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequesttexture@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2693,7 +3023,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -2726,6 +3057,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequestwww@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2750,7 +3086,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -2799,6 +3136,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.vehicles@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2823,7 +3165,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -2852,6 +3195,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.video@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2876,7 +3224,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.audio
     version: 1.0.0
@@ -2913,6 +3262,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.vr@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2937,7 +3291,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -2976,6 +3331,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.wind@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -3000,7 +3360,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -3025,6 +3386,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.xr@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -3049,7 +3415,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -3086,6 +3453,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.subsystems@1.0.0
   testable: 0
   isDirectDependency: 0
@@ -3110,7 +3482,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -3139,41 +3512,312 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.unity.modules.uielementsnative@1.0.0
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.film-internal-utilities@0.18.4-preview
   testable: 0
   isDirectDependency: 0
-  version: 1.0.0
-  source: 2
-  resolvedPath: D:\GitHub\Unity-Racing-Game\Racing game\Racing-game-graduation-project\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
-  assetPath: Packages/com.unity.modules.uielementsnative
-  name: com.unity.modules.uielementsnative
-  displayName: UIElements Native
+  version: 0.18.4-preview
+  source: 1
+  resolvedPath: D:\GitHub\Unity-Racing-Game\Racing game\Racing-game-graduation-project\Library\PackageCache\com.unity.film-internal-utilities@0.18.4-preview
+  assetPath: Packages/com.unity.film-internal-utilities
+  name: com.unity.film-internal-utilities
+  displayName: Film Internal Utilities
   author:
     name: 
     email: 
     url: 
   category: 
-  type: module
-  description: 
+  type: asset
+  description: A package containing internal utility functions to support the development
+    of film packages/modules for Unity
   status: 0
   errors: []
   versions:
     all:
-    - 1.0.0
+    - 0.5.1-preview
+    - 0.6.0-preview
+    - 0.7.0-preview
+    - 0.7.1-preview
+    - 0.8.0-preview
+    - 0.8.1-preview
+    - 0.8.2-preview
+    - 0.8.3-preview
+    - 0.8.4-preview
+    - 0.9.0-preview
+    - 0.10.0-preview
+    - 0.10.1-preview
+    - 0.10.2-preview
+    - 0.11.0-preview
+    - 0.11.1-preview
+    - 0.12.0-preview
+    - 0.12.1-preview
+    - 0.12.2-preview
+    - 0.12.3-preview
+    - 0.12.4-preview
+    - 0.12.5-preview
+    - 0.13.0-preview
+    - 0.14.0-preview
+    - 0.14.1-preview
+    - 0.14.2-preview
+    - 0.15.0-preview
+    - 0.15.1-preview
+    - 0.15.2-preview
+    - 0.16.0-preview
+    - 0.16.1-preview
+    - 0.16.2-preview
+    - 0.16.3-preview
+    - 0.16.4-preview
+    - 0.17.0-preview
+    - 0.18.0-preview
+    - 0.18.1-preview
+    - 0.18.2-preview
+    - 0.18.3-preview
+    - 0.18.4-preview
     compatible:
-    - 1.0.0
-    verified: 1.0.0
+    - 0.5.1-preview
+    - 0.6.0-preview
+    - 0.7.0-preview
+    - 0.7.1-preview
+    - 0.8.0-preview
+    - 0.8.1-preview
+    - 0.8.2-preview
+    - 0.8.3-preview
+    - 0.8.4-preview
+    - 0.9.0-preview
+    - 0.10.0-preview
+    - 0.10.1-preview
+    - 0.10.2-preview
+    - 0.11.0-preview
+    - 0.11.1-preview
+    - 0.12.0-preview
+    - 0.12.1-preview
+    - 0.12.2-preview
+    - 0.12.3-preview
+    - 0.12.4-preview
+    - 0.12.5-preview
+    - 0.13.0-preview
+    - 0.14.0-preview
+    - 0.14.1-preview
+    - 0.14.2-preview
+    - 0.15.0-preview
+    - 0.15.1-preview
+    - 0.15.2-preview
+    - 0.16.0-preview
+    - 0.16.1-preview
+    - 0.16.2-preview
+    - 0.16.3-preview
+    - 0.16.4-preview
+    - 0.17.0-preview
+    - 0.18.0-preview
+    - 0.18.1-preview
+    - 0.18.2-preview
+    - 0.18.3-preview
+    - 0.18.4-preview
+    recommended: 
+    deprecated: []
   dependencies:
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.timeline
+    version: 1.2.18
+  resolvedDependencies:
+  - name: com.unity.modules.uielements
+    version: 1.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
+  - name: com.unity.timeline
+    version: 1.7.4
+  - name: com.unity.modules.director
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638155090800000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.film-internal-utilities@0.18/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/AnimeSolution.git
+    revision: e2de226377d625af9002805dbec3e6e5454f365a
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.render-pipelines.core@14.0.7
+  testable: 0
+  isDirectDependency: 0
+  version: 14.0.7
+  source: 2
+  resolvedPath: D:\GitHub\Unity-Racing-Game\Racing game\Racing-game-graduation-project\Library\PackageCache\com.unity.render-pipelines.core@14.0.7
+  assetPath: Packages/com.unity.render-pipelines.core
+  name: com.unity.render-pipelines.core
+  displayName: Core RP Library
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: SRP Core makes it easier to create or customize a Scriptable Render
+    Pipeline (SRP). SRP Core contains reusable code, including boilerplate code for
+    working with platform-specific graphics APIs, utility functions for common rendering
+    operations, and  shader libraries. The code in SRP Core is use by the High Definition
+    Render Pipeline (HDRP) and Universal Render Pipeline (URP). If you are creating
+    a custom SRP from scratch or customizing a prebuilt SRP, using SRP Core will
+    save you time.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.21
+    - 0.1.27
+    - 0.1.28
+    - 1.0.0-beta
+    - 1.0.1-beta
+    - 1.1.1-preview
+    - 1.1.2-preview
+    - 1.1.4-preview
+    - 1.1.5-preview
+    - 1.1.8-preview
+    - 1.1.10-preview
+    - 1.1.11-preview
+    - 2.0.1-preview
+    - 2.0.3-preview
+    - 2.0.4-preview
+    - 2.0.4-preview.1
+    - 2.0.5-preview
+    - 2.0.6-preview
+    - 2.0.7-preview
+    - 2.0.8-preview
+    - 3.0.0-preview
+    - 3.1.0-preview
+    - 3.3.0-preview
+    - 4.0.0-preview
+    - 4.0.1-preview
+    - 4.1.0-preview
+    - 4.2.0-preview
+    - 4.3.0-preview
+    - 4.6.0-preview
+    - 4.8.0-preview
+    - 4.9.0-preview
+    - 4.10.0-preview
+    - 5.0.0-preview
+    - 5.1.0
+    - 5.2.0
+    - 5.2.1
+    - 5.2.2
+    - 5.2.3
+    - 5.3.1
+    - 5.6.1
+    - 5.7.2
+    - 5.8.2
+    - 5.9.0
+    - 5.10.0
+    - 5.13.0
+    - 5.16.1
+    - 6.5.2
+    - 6.5.3
+    - 6.7.1
+    - 6.9.0
+    - 6.9.1
+    - 6.9.2
+    - 7.0.0
+    - 7.0.1
+    - 7.1.1
+    - 7.1.2
+    - 7.1.5
+    - 7.1.6
+    - 7.1.7
+    - 7.1.8
+    - 7.2.0
+    - 7.2.1
+    - 7.3.1
+    - 7.4.1
+    - 7.4.2
+    - 7.4.3
+    - 7.5.1
+    - 7.5.2
+    - 7.5.3
+    - 7.6.0
+    - 7.7.0
+    - 7.7.1
+    - 8.0.1
+    - 8.1.0
+    - 8.2.0
+    - 8.3.1
+    - 9.0.0-preview.13
+    - 9.0.0-preview.35
+    - 9.0.0-preview.38
+    - 9.0.0-preview.60
+    - 9.0.0-preview.77
+    - 10.0.0-preview.30
+    - 10.1.0
+    - 10.2.0
+    - 10.2.1
+    - 10.2.2
+    - 10.3.1
+    - 10.3.2
+    - 10.4.0
+    - 10.5.0
+    - 10.5.1
+    - 10.6.0
+    - 10.7.0
+    - 10.8.0
+    - 10.8.1
+    - 10.9.0
+    - 10.10.0
+    - 10.10.1
+    - 14.0.7
+    compatible:
+    - 14.0.7
+    recommended: 14.0.7
+    deprecated: []
+  dependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
   resolvedDependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -3197,8 +3841,13 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 14.0.7
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.ext.nunit@1.0.6
   testable: 0
   isDirectDependency: 0
@@ -3232,7 +3881,8 @@ m_ResolvedPackages:
     - 1.0.6
     - 2.0.2
     - 2.0.3
-    verified: 1.0.6
+    recommended: 1.0.6
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -3260,6 +3910,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.6
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.mathematics@1.2.6
   testable: 0
   isDirectDependency: 0
@@ -3300,7 +3955,8 @@ m_ResolvedPackages:
     - 1.2.6
     compatible:
     - 1.2.6
-    verified: 1.2.6
+    recommended: 1.2.6
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -3326,12 +3982,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.6
     nextVersion: 
-- packageId: com.unity.burst@1.8.2
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.burst@1.8.4
   testable: 0
   isDirectDependency: 0
-  version: 1.8.2
+  version: 1.8.4
   source: 1
-  resolvedPath: D:\GitHub\Unity-Racing-Game\Racing game\Racing-game-graduation-project\Library\PackageCache\com.unity.burst@1.8.2
+  resolvedPath: D:\GitHub\Unity-Racing-Game\Racing game\Racing-game-graduation-project\Library\PackageCache\com.unity.burst@1.8.4
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -3469,21 +4130,9 @@ m_ResolvedPackages:
     - 1.8.3
     - 1.8.4
     compatible:
-    - 1.6.6
-    - 1.7.0-pre.1
-    - 1.7.0
-    - 1.7.1
-    - 1.7.2
-    - 1.7.3
-    - 1.7.4
-    - 1.8.0-pre.1
-    - 1.8.0-pre.2
-    - 1.8.0
-    - 1.8.1
-    - 1.8.2
-    - 1.8.3
     - 1.8.4
-    verified: 1.6.6
+    recommended: 1.8.4
+    deprecated: []
   dependencies:
   - name: com.unity.mathematics
     version: 1.2.1
@@ -3501,191 +4150,28 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638046369550000000
-  documentationUrl: 
+  datePublishedTicks: 638150963640000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: git@github.cds.internal.unity3d.com:unity/burst
-    revision: 695ae863dfb82b807b4deb649b41575aed09b544
+    revision: b05f7d57a035997c1abc0c742e812dadd107d467
     path: 
   unityLifecycle:
-    version: 1.6.6
+    version: 1.8.4
     nextVersion: 
-- packageId: com.unity.render-pipelines.core@12.1.10
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.shadergraph@14.0.7
   testable: 0
   isDirectDependency: 0
-  version: 12.1.10
+  version: 14.0.7
   source: 2
-  resolvedPath: D:\GitHub\Unity-Racing-Game\Racing game\Racing-game-graduation-project\Library\PackageCache\com.unity.render-pipelines.core@12.1.10
-  assetPath: Packages/com.unity.render-pipelines.core
-  name: com.unity.render-pipelines.core
-  displayName: Core RP Library
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: SRP Core makes it easier to create or customize a Scriptable Render
-    Pipeline (SRP). SRP Core contains reusable code, including boilerplate code for
-    working with platform-specific graphics APIs, utility functions for common rendering
-    operations, and  shader libraries. The code in SRP Core is use by the High Definition
-    Render Pipeline (HDRP) and Universal Render Pipeline (URP). If you are creating
-    a custom SRP from scratch or customizing a prebuilt SRP, using SRP Core will
-    save you time.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 0.1.21
-    - 0.1.27
-    - 0.1.28
-    - 1.0.0-beta
-    - 1.0.1-beta
-    - 1.1.1-preview
-    - 1.1.2-preview
-    - 1.1.4-preview
-    - 1.1.5-preview
-    - 1.1.8-preview
-    - 1.1.10-preview
-    - 1.1.11-preview
-    - 2.0.1-preview
-    - 2.0.3-preview
-    - 2.0.4-preview
-    - 2.0.4-preview.1
-    - 2.0.5-preview
-    - 2.0.6-preview
-    - 2.0.7-preview
-    - 2.0.8-preview
-    - 3.0.0-preview
-    - 3.1.0-preview
-    - 3.3.0-preview
-    - 4.0.0-preview
-    - 4.0.1-preview
-    - 4.1.0-preview
-    - 4.2.0-preview
-    - 4.3.0-preview
-    - 4.6.0-preview
-    - 4.8.0-preview
-    - 4.9.0-preview
-    - 4.10.0-preview
-    - 5.0.0-preview
-    - 5.1.0
-    - 5.2.0
-    - 5.2.1
-    - 5.2.2
-    - 5.2.3
-    - 5.3.1
-    - 5.6.1
-    - 5.7.2
-    - 5.8.2
-    - 5.9.0
-    - 5.10.0
-    - 5.13.0
-    - 5.16.1
-    - 6.5.2
-    - 6.5.3
-    - 6.7.1
-    - 6.9.0
-    - 6.9.1
-    - 6.9.2
-    - 7.0.0
-    - 7.0.1
-    - 7.1.1
-    - 7.1.2
-    - 7.1.5
-    - 7.1.6
-    - 7.1.7
-    - 7.1.8
-    - 7.2.0
-    - 7.2.1
-    - 7.3.1
-    - 7.4.1
-    - 7.4.2
-    - 7.4.3
-    - 7.5.1
-    - 7.5.2
-    - 7.5.3
-    - 7.6.0
-    - 7.7.0
-    - 7.7.1
-    - 8.0.1
-    - 8.1.0
-    - 8.2.0
-    - 8.3.1
-    - 9.0.0-preview.13
-    - 9.0.0-preview.35
-    - 9.0.0-preview.38
-    - 9.0.0-preview.60
-    - 9.0.0-preview.77
-    - 10.0.0-preview.30
-    - 10.1.0
-    - 10.2.0
-    - 10.2.1
-    - 10.2.2
-    - 10.3.1
-    - 10.3.2
-    - 10.4.0
-    - 10.5.0
-    - 10.5.1
-    - 10.6.0
-    - 10.7.0
-    - 10.8.0
-    - 10.8.1
-    - 10.9.0
-    - 10.10.0
-    - 10.10.1
-    - 12.1.10
-    compatible:
-    - 12.1.10
-    verified: 12.1.10
-  dependencies:
-  - name: com.unity.ugui
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.ugui
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 12.1.10
-    nextVersion: 
-- packageId: com.unity.shadergraph@12.1.10
-  testable: 0
-  isDirectDependency: 0
-  version: 12.1.10
-  source: 2
-  resolvedPath: D:\GitHub\Unity-Racing-Game\Racing game\Racing-game-graduation-project\Library\PackageCache\com.unity.shadergraph@12.1.10
+  resolvedPath: D:\GitHub\Unity-Racing-Game\Racing game\Racing-game-graduation-project\Library\PackageCache\com.unity.shadergraph@14.0.7
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -3801,18 +4287,19 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 12.1.10
+    - 14.0.7
     compatible:
-    - 12.1.10
-    verified: 12.1.10
+    - 14.0.7
+    recommended: 14.0.7
+    deprecated: []
   dependencies:
   - name: com.unity.render-pipelines.core
-    version: 12.1.10
+    version: 14.0.7
   - name: com.unity.searcher
-    version: 4.9.1
+    version: 4.9.2
   resolvedDependencies:
   - name: com.unity.render-pipelines.core
-    version: 12.1.10
+    version: 14.0.7
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -3821,10 +4308,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.physics
     version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.searcher
-    version: 4.9.1
+    version: 4.9.2
   keywords: []
   registry:
     id: main
@@ -3845,258 +4334,13 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.10
+    version: 14.0.7
     nextVersion: 
-- packageId: com.unity.visualeffectgraph@12.1.10
-  testable: 0
-  isDirectDependency: 0
-  version: 12.1.10
-  source: 2
-  resolvedPath: D:\GitHub\Unity-Racing-Game\Racing game\Racing-game-graduation-project\Library\PackageCache\com.unity.visualeffectgraph@12.1.10
-  assetPath: Packages/com.unity.visualeffectgraph
-  name: com.unity.visualeffectgraph
-  displayName: Visual Effect Graph
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: The Visual Effect Graph is a node based visual effect editor. It allows
-    you to author next generation visual effects that Unity simulates directly on
-    the GPU. The Visual Effect Graph is production-ready for the High Definition
-    Render Pipeline and runs on all platforms supported by it. Full support for the
-    Universal Render Pipeline and compatible mobile devices is still in development.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 4.3.0-preview
-    - 4.6.0-preview
-    - 4.8.0-preview
-    - 4.9.0-preview
-    - 4.10.0-preview
-    - 5.2.0-preview
-    - 5.2.1-preview
-    - 5.2.3-preview
-    - 5.3.1-preview
-    - 5.6.1-preview
-    - 5.7.2-preview
-    - 5.8.2-preview
-    - 5.10.0-preview
-    - 5.13.0-preview
-    - 5.16.1-preview
-    - 6.5.2-preview
-    - 6.5.3-preview
-    - 6.7.1-preview
-    - 6.9.0-preview
-    - 6.9.1-preview
-    - 6.9.2-preview
-    - 7.0.0
-    - 7.0.1
-    - 7.1.1
-    - 7.1.2
-    - 7.1.5
-    - 7.1.6
-    - 7.1.7
-    - 7.1.8
-    - 7.2.0
-    - 7.2.1
-    - 7.3.1
-    - 7.4.1
-    - 7.4.2
-    - 7.4.3
-    - 7.5.1
-    - 7.5.2
-    - 7.5.3
-    - 7.6.0
-    - 7.7.0
-    - 7.7.1
-    - 8.0.1
-    - 8.1.0
-    - 8.2.0
-    - 8.3.1
-    - 9.0.0-preview.13
-    - 9.0.0-preview.33
-    - 9.0.0-preview.54
-    - 9.0.0-preview.71
-    - 10.0.0-preview.27
-    - 10.1.0
-    - 10.2.0
-    - 10.2.1
-    - 10.2.2
-    - 10.3.1
-    - 10.3.2
-    - 10.4.0
-    - 10.5.0
-    - 10.5.1
-    - 10.6.0
-    - 10.7.0
-    - 10.8.0
-    - 10.8.1
-    - 10.9.0
-    - 10.10.0
-    - 10.10.1
-    - 12.1.10
-    compatible:
-    - 12.1.10
-    verified: 12.1.10
-  dependencies:
-  - name: com.unity.shadergraph
-    version: 12.1.10
-  - name: com.unity.render-pipelines.core
-    version: 12.1.10
-  resolvedDependencies:
-  - name: com.unity.shadergraph
-    version: 12.1.10
-  - name: com.unity.render-pipelines.core
-    version: 12.1.10
-  - name: com.unity.ugui
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.searcher
-    version: 4.9.1
-  keywords:
-  - vfx
-  - visualeffect
-  - graph
-  - effect
-  - particles
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 12.1.10
-    nextVersion: 
-- packageId: com.unity.render-pipelines.high-definition-config@12.1.10
-  testable: 0
-  isDirectDependency: 0
-  version: 12.1.10
-  source: 2
-  resolvedPath: D:\GitHub\Unity-Racing-Game\Racing game\Racing-game-graduation-project\Library\PackageCache\com.unity.render-pipelines.high-definition-config@12.1.10
-  assetPath: Packages/com.unity.render-pipelines.high-definition-config
-  name: com.unity.render-pipelines.high-definition-config
-  displayName: High Definition RP Config
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: Configuration files for the High Definition Render Pipeline.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 7.0.0
-    - 7.0.1
-    - 7.1.1
-    - 7.1.2
-    - 7.1.5
-    - 7.1.6
-    - 7.1.7
-    - 7.1.8
-    - 7.2.0
-    - 7.2.1
-    - 7.3.1
-    - 7.4.1
-    - 7.4.2
-    - 7.4.3
-    - 7.5.1
-    - 7.5.2
-    - 7.5.3
-    - 7.6.0
-    - 7.7.0
-    - 7.7.1
-    - 8.0.1
-    - 8.1.0
-    - 8.2.0
-    - 8.3.1
-    - 9.0.0-preview.15
-    - 9.0.0-preview.35
-    - 9.0.0-preview.57
-    - 9.0.0-preview.74
-    - 10.0.0-preview.27
-    - 10.1.0
-    - 10.2.0
-    - 10.2.1
-    - 10.2.2
-    - 10.3.1
-    - 10.3.2
-    - 10.4.0
-    - 10.5.0
-    - 10.5.1
-    - 10.6.0
-    - 10.7.0
-    - 10.8.0
-    - 10.8.1
-    - 10.9.0
-    - 10.10.0
-    - 10.10.1
-    - 12.1.10
-    compatible:
-    - 12.1.10
-    verified: 12.1.10
-  dependencies:
-  - name: com.unity.render-pipelines.core
-    version: 12.1.10
-  resolvedDependencies:
-  - name: com.unity.render-pipelines.core
-    version: 12.1.10
-  - name: com.unity.ugui
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 12.1.10
-    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.editorcoroutines@1.0.0
   testable: 0
   isDirectDependency: 0
@@ -4128,7 +4372,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -4156,6 +4401,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.performance.profile-analyzer@1.2.2
   testable: 0
   isDirectDependency: 0
@@ -4196,7 +4446,8 @@ m_ResolvedPackages:
     - 1.2.2
     compatible:
     - 1.2.2
-    verified: 1.2.2
+    recommended: 1.2.2
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -4221,6 +4472,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.2
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.testtools.codecoverage@1.2.2
   testable: 0
   isDirectDependency: 0
@@ -4272,9 +4528,12 @@ m_ResolvedPackages:
     - 1.2.0
     - 1.2.1
     - 1.2.2
+    - 1.2.3
     compatible:
     - 1.2.2
-    verified: 1.2.2
+    - 1.2.3
+    recommended: 1.2.3
+    deprecated: []
   dependencies:
   - name: com.unity.test-framework
     version: 1.0.16
@@ -4282,7 +4541,7 @@ m_ResolvedPackages:
     version: 1.0.1
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.1.31
+    version: 1.1.33
   - name: com.unity.ext.nunit
     version: 1.0.6
   - name: com.unity.modules.imgui
@@ -4290,7 +4549,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.settings-manager
-    version: 1.0.3
+    version: 2.0.1
   keywords:
   - test
   - coverage
@@ -4317,12 +4576,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.2
     nextVersion: 
-- packageId: com.unity.searcher@4.9.1
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.searcher@4.9.2
   testable: 0
   isDirectDependency: 0
-  version: 4.9.1
+  version: 4.9.2
   source: 1
-  resolvedPath: D:\GitHub\Unity-Racing-Game\Racing game\Racing-game-graduation-project\Library\PackageCache\com.unity.searcher@4.9.1
+  resolvedPath: D:\GitHub\Unity-Racing-Game\Racing game\Racing-game-graduation-project\Library\PackageCache\com.unity.searcher@4.9.2
   assetPath: Packages/com.unity.searcher
   name: com.unity.searcher
   displayName: Searcher
@@ -4355,9 +4619,9 @@ m_ResolvedPackages:
     - 4.9.1
     - 4.9.2
     compatible:
-    - 4.9.1
     - 4.9.2
-    verified: 4.9.2
+    recommended: 4.9.2
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -4373,23 +4637,28 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637695653650000000
+  datePublishedTicks: 637831252240000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.searcher.git
-    revision: 9e68a2a9ba29bd6783bc91d15ff82bbd459f2163
+    revision: 7f9f75b04e97cf09c8ddc3968d059e74d6a2460a
     path: 
   unityLifecycle:
-    version: 4.9.1
+    version: 4.9.2
     nextVersion: 
-- packageId: com.unity.settings-manager@1.0.3
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.settings-manager@2.0.1
   testable: 0
   isDirectDependency: 0
-  version: 1.0.3
+  version: 2.0.1
   source: 1
-  resolvedPath: D:\GitHub\Unity-Racing-Game\Racing game\Racing-game-graduation-project\Library\PackageCache\com.unity.settings-manager@1.0.3
+  resolvedPath: D:\GitHub\Unity-Racing-Game\Racing game\Racing-game-graduation-project\Library\PackageCache\com.unity.settings-manager@2.0.1
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -4414,10 +4683,9 @@ m_ResolvedPackages:
     - 2.0.0
     - 2.0.1
     compatible:
-    - 1.0.3
-    - 2.0.0
     - 2.0.1
-    verified: 1.0.3
+    recommended: 2.0.1
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -4431,14 +4699,19 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637300096300000000
+  datePublishedTicks: 637744099390000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
-    revision: 473664ccba1496294b741cf169740a5d54b3d0b6
+    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    revision: 9b7c12d04ef880168151c127fd6b37b5931197dc
     path: 
   unityLifecycle:
-    version: 1.0.3
+    version: 2.0.1
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
