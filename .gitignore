@@ -396,3 +396,5 @@ FodyWeavers.xsd
 .vs/ProjectSettings.json
 .vs/slnx.sqlite
 *.dylib
+Temp/
+*.bin
